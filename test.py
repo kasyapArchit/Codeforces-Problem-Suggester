@@ -5,6 +5,7 @@ import user.level as lv
 import user.language as lg
 import user.timeRating as tr
 import user.tagsQrating as tq
+import user.heatMap as hm
 import user.some_number_about_users as dt
 import fetch as fd
 import elo
@@ -29,6 +30,7 @@ lv.levels(handle)
 lg.language_graph(handle)
 tr.time_graph(handle)
 tq.box_plot(handle)
+hm.time_scale(handle)
 print ('all tried ',dt.tried(handle))
 print ('all solved ',dt.solved(handle))
 print ('all unsolved ',dt.unsolved_problem(handle))

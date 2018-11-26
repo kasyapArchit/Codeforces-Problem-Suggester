@@ -6,4 +6,5 @@ from .verdict import *
 from .user_data import *
 from .timeRating import *
 from .tagsQrating import *
+from .heatMap import *
 # from .load_data import *
